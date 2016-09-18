@@ -1,4 +1,4 @@
-sudo pacman -S exa tmux tidy vim curl rxvt-unicode mpv youtube-dl
+sudo pacman -S exa tmux tidy vim curl rxvt-unicode mpv youtube-dl couchdb redis postgresql orientdb
 curl -kLO https://raw.githubusercontent.com/TyrfingMjolnir/dotfiles/master/.tmux.conf
 curl -kLO https://raw.githubusercontent.com/TyrfingMjolnir/dotfiles/master/.Xresources
 curl -kLO https://raw.githubusercontent.com/TyrfingMjolnir/dotfiles/master/.vimrc
