@@ -14,18 +14,45 @@ set encoding=utf-8
 set number
 
 " Plugins
+
 call plug#begin('~/.vim/plugged')
 
-" General
-Plug 'scrooloose/nerdtree'
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'benekastah/neomake'
-Plug 'Shougo/deoplete.nvim'
-Plug 'altercation/vim-colors-solarized'
-Plug 'ervandew/supertab'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+" Make sure you use single quotes
+Plug 'junegunn/seoul256.vim'
+Plug 'junegunn/vim-easy-align'
+
+" On-demand loading
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
+
+" Using git URL
+Plug 'https://github.com/junegunn/vim-github-dashboard.git'
+
+" Plugin options
+Plug 'nsf/gocode', { 'tag': 'v.20150303', 'rtp': 'vim' }
+
+" Plugin outside ~/.vim/plugged with post-update hook
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': 'yes \| ./install' }
+
+" Unmanaged plugin (manually installed and updated)
+Plug '~/my-prototype-plugin'
+
+Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
+
+Plug 'tpope/vim-repeat'
+Plug 'edsono/vim-matchit'
+
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'tomtom/tlib_vim'
+Plug 'garbas/vim-snipmate'
+Plug 'leafgarland/typescript-vim'
+Plug 'powerline/powerline'
+
+" Optional:
+Plug 'honza/vim-snippets'
+Plug 'nathanaelkane/vim-indent-guides'
+Plug 'ervandew/supertab'
 Plug 'scrooloose/syntastic'
 Plug 'Shougo/neosnippet.vim'
 call plug#end()
