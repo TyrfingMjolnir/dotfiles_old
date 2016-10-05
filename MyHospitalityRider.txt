@@ -1,0 +1,6 @@
+SuperMicro hardware or similar( no driver issues with Joyent SmartOS or Linux )
+512GB SSD
+32GB RAM
+32GB San Disk slim fit USB 3.0 or similar( must fit inside 1U unit on top of motherboard )
+Das Keyboard ultimate latest US Cherry MX-Brown; Important: cabled
+Kensington slimblade or CST2545W or similar; Important: cabled
