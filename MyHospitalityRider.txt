@@ -1,4 +1,4 @@
-Prerequisites
+Hospitality Rider
 
 General:
 SuperMicro hardware or similar( no driver issues with MacOS X, Joyent SmartOS or Linux )
