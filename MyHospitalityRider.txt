@@ -2,5 +2,7 @@ SuperMicro hardware or similar( no driver issues with MacOS X, Joyent SmartOS or
 512GB SSD
 32GB RAM
 32GB San Disk slim fit USB 3.0 or similar( must fit inside 1U unit on top of motherboard )
-Das Keyboard ultimate latest US Cherry MX-Brown; Important: cabled
+Das Keyboard ultimate latest USB 3.0 US Cherry MX-Brown; Important: cabled
 Kensington slimblade or CST2545W or similar; Important: cabled
+
+For graphics/retouch: Wacom A5
