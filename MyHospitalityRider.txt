@@ -1,3 +1,6 @@
+Prerequisites
+
+General:
 SuperMicro hardware or similar( no driver issues with MacOS X, Joyent SmartOS or Linux )
 512GB SSD
 32GB RAM
