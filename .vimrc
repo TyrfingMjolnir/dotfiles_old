@@ -1,6 +1,8 @@
 nnoremap ; :
 nnoremap : ;
 
+set nocompatible
+
 call plug#begin('~/.vim/plugged')
 
 " Make sure you use single quotes
@@ -44,6 +46,9 @@ call plug#end()
 
 filetype plugin on
 filetype indent on
+
+set path+=**
+set wildmenu
 
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 
