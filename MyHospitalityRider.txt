@@ -1,7 +1,7 @@
 Hospitality Rider
 
 General:
-SuperMicro hardware or similar( key NO DRIVER issues with MacOS X, Joyent SmartOS or Linux )
+SuperMicro hardware or similar( read: hardware that has NO DRIVER issues with MacOS X, Joyent SmartOS or Linux )
 Minimum 512GB SSD boot disk
 Minimum 8x 128GB SSD for workspace
 Minimum 32GB RAM
