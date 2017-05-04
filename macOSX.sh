@@ -4,4 +4,4 @@ brew install vim ctags tmux nvm
 nvm install nodejs
 npm i -g json nodemon
 
-echo "alias tb=\"nc termbin.com 9999\"" >> ~/.bash_profile
+echo 'alias tb="nc termbin.com 9999"' >> ~/.bash_profile
