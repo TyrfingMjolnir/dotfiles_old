@@ -1,7 +1,51 @@
+set nocompatible
+set autowrite
+
+nnoremap j gj
+nnoremap k gk
+
 nnoremap ; :
 nnoremap : ;
 
-set nocompatible
+nnoremap ,html :-1read $HOME/.vim/.skeleton.html<CR>G
+nnoremap ,cfor :-1read $HOME/.vim/.skeleton.cfor.c<CR>5j11l
+nnoremap ,sfor :-1read $HOME/.vim/.skeleton.sfor.swift<CR>1j
+nnoremap ,cwhile :-1read $HOME/.vim/.skeleton.cwhile.c<CR>
+nnoremap ,nojs :-1read $HOME/.vim/.skeleton.node.js<CR>/fs<CR>
+nnoremap ,php :-1read $HOME/.vim/.skeleton.php<CR>\?><CR>
+nnoremap ,sh :-1read $HOME/.vim/.skeleton.sh<CR>2j10la
+nnoremap ,cggt :-1read $HOME/.vim/.copyright.ggt.txt<CR>\?><CR>
+
+"""HTML
+autocmd FileType html inoremap ;b <b></b><Space><++><Esc>FbT>i
+autocmd FileType html inoremap ;i <em></em><Space><++><Esc>FeT>i
+autocmd FileType html inoremap ;1 <h1></h1><Enter><Enter><++><Esc>2kf<i
+autocmd FileType html inoremap ;2 <h2></h2><Enter><Enter><++><Esc>2kf<i
+autocmd FileType html inoremap ;3 <h3></h3><Enter><Enter><++><Esc>2kf<i
+autocmd FileType html inoremap ;p <p></p><Enter><Enter><++><Esc>02kf>a
+autocmd FileType html inoremap ;a <a<Space>href=""><++></a><Space><++><Esc>F"i
+autocmd FileType html inoremap ;ul <ul><Enter><li></li><Enter></ul><Enter><Enter><++><Esc>03kf<i
+autocmd FileType html inoremap ;li <Esc>o<li></li><Esc>F>a
+autocmd FileType html inoremap ;ol <ol><Enter><li></li><Enter></ol><Enter><Enter><++><Esc>03kf<i
+"""END
+
+""".md
+autocmd Filetype markdown inoremap ;b ****<Space><++><Esc>F*hi
+autocmd Filetype markdown inoremap ;s ~~~~<Space><++><Esc>F~hi
+autocmd Filetype markdown inoremap ;e **<Space><++><Esc>F*i
+autocmd Filetype markdown inoremap ;h ====<Space><++><Esc>F=hi
+autocmd Filetype markdown inoremap ;i ![](<++>)<Space><++><Esc>F[a
+autocmd Filetype markdown inoremap ;a [](<++>)<Space><++><Esc>F[a
+autocmd Filetype markdown inoremap ;1 #<Space><Enter><++><Esc>kA
+autocmd Filetype markdown inoremap ;2 ##<Space><Enter><++><Esc>kA
+autocmd Filetype markdown inoremap ;3 ###<Space><Enter><++><Esc>kA
+autocmd Filetype markdown inoremap ;l --------<Enter>
+"""END
+
+nnoremap <Left>  :echoe "Use h"<CR>
+nnoremap <Right> :echoe "Use l"<CR>
+nnoremap <Up>    :echoe "Use k"<CR>
+nnoremap <Down>  :echoe "Use j"<CR>
 
 call plug#begin('~/.vim/plugged')
 
