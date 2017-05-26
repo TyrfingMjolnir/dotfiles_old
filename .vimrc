@@ -16,7 +16,7 @@ nnoremap ,php :-1read $HOME/.vim/.skeleton.php<CR>\?><CR>
 nnoremap ,sh :-1read $HOME/.vim/.skeleton.sh<CR>2j10la
 nnoremap ,cggt :-1read $HOME/.vim/.copyright.ggt.txt<CR>\?><CR>
 
-"""HTML
+"""HTML https://www.youtube.com/watch?v=Q4I_Ft-VLAg
 autocmd FileType html inoremap ;b <b></b><Space><++><Esc>FbT>i
 autocmd FileType html inoremap ;i <em></em><Space><++><Esc>FeT>i
 autocmd FileType html inoremap ;1 <h1></h1><Enter><Enter><++><Esc>2kf<i
@@ -29,7 +29,7 @@ autocmd FileType html inoremap ;li <Esc>o<li></li><Esc>F>a
 autocmd FileType html inoremap ;ol <ol><Enter><li></li><Enter></ol><Enter><Enter><++><Esc>03kf<i
 """END
 
-""".md
+""".md https://www.youtube.com/watch?v=Q4I_Ft-VLAg
 autocmd Filetype markdown inoremap ;b ****<Space><++><Esc>F*hi
 autocmd Filetype markdown inoremap ;s ~~~~<Space><++><Esc>F~hi
 autocmd Filetype markdown inoremap ;e **<Space><++><Esc>F*i
