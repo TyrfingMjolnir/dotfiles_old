@@ -56,6 +56,9 @@ nnoremap <Down>  :echoe "Use j"<CR>
 
 call plug#begin('~/.vim/plugged')
 
+" html > body > table > tr > th*12 CTRL + E
+Plug 'rstacruz/sparkup'
+
 " Make sure you use single quotes
 Plug 'junegunn/seoul256.vim'
 Plug 'junegunn/vim-easy-align'
