@@ -7,7 +7,7 @@ pacman -Qqn > installed-repo-packages.lst
 ```
 or list all packages that are not in base or base-devel and that are not a dependency
 ```shell
-comm -23 <(pacman -Qqt | sort) <(pacman -Sqg base base-devel | sort) | wc -l
+comm -23 <(pacman -Qqt | sort) <(pacman -Sqg base base-devel | sort) > installed-repo-packages.lst
 ```
 
 ## How to install those same pacakges on a different machine.
