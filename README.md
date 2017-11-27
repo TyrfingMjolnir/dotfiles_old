@@ -5,6 +5,10 @@ Some of my dotfiles, and some of yours, no warranty, it's all for inspirational 
 ```shell
 pacman -Qqn > installed-repo-packages.lst
 ```
+or list all packages that are not in base or base-devel and that are not a dependency
+```shell
+comm -23 <(pacman -Qqt | sort) <(pacman -Sqg base base-devel | sort) | wc -l
+```
 
 ## How to install those same pacakges on a different machine.
 ```shell
