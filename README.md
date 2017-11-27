@@ -18,3 +18,19 @@ comm -23 <(pacman -Qqnet | sort) <(pacman -Sqg base base-devel | sort) > install
 ```shell
 pacman -S - < installed-repo-packages.lst
 ```
+
+
+### How to do a boolean subtraction between lines of 2 files
+
+Create a sorted list of the files you want to check ownership of:
+```shell
+$ find /etc /opt /usr | sort > all_files.txt
+```
+Create a sorted list of the files tracked by pacman (and remove the trailing slashes from directories):
+```shell
+$ pacman -Qlq | sed 's|/$||' | sort > owned_files.txt
+```
+Find lines in the first list that are not in the second:
+```shell
+$ comm -23 all_files.txt owned_files.txt
+```
