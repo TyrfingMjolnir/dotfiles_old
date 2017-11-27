@@ -9,6 +9,10 @@ or list all packages that are not in base or base-devel and that are not a depen
 ```shell
 comm -23 <(pacman -Qqt | sort) <(pacman -Sqg base base-devel | sort) > installed-repo-packages.lst
 ```
+or the shit you actually want
+```shell
+comm -23 <(pacman -Qqnet | sort) <(pacman -Sqg base base-devel | sort) > installed-repo-packages.lst
+```
 
 ## How to install those same pacakges on a different machine.
 ```shell
