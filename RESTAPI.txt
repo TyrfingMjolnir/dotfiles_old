@@ -1,7 +1,22 @@
+Common
+
+
 cd /opt/local/projectname
+
+
+
+Node.js
+
 npm init --y
 
 npm i restify restify-errors restify-cors-middleware
 npm i mssql tedious
 npm i pg pg-native
 npm i elasticsearch elasticsearch-sanitizer elasticsearch-tools elasticsearch-scroll-stream elasticsearch-writable-stream
+
+
+
+Swift
+
+spm init
+spm i kitura
