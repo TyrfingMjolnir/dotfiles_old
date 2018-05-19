@@ -1,0 +1,6 @@
+yaourt -S nvm
+nvm i --lts
+nvm install --lts
+nvm use --lts 
+nvm alias default node
+sudo npm i -g json nodemon
