@@ -1,8 +1,6 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install exa
 brew install vim ctags tmux nvm
-nvm install --lts
-npm i -g json nodemon
 
 echo 'alias tb="(exec 3<>/dev/tcp/termbin.com/9999; cat >&3; cat <&3; exec 3<&-)"' >> ~/.bash_profile
 
