@@ -1,7 +1,8 @@
 Common
 
+nvm i --lts
 
-cd /opt/local/projectname
+cd /opt/local/dev/projectname
 
 
 
