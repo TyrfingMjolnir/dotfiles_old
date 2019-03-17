@@ -10,3 +10,5 @@ echo 'alias llt="exa -T"'   >> ~/.bash_profile
 echo 'alias lllt="exa -lT"' >> ~/.bash_profile
 echo 'alias lla="exa -la"'  >> ~/.bash_profile
 echo 'alias llh="exa -lh"'  >> ~/.bash_profile
+
+echo 'alias ldd="/usr/bin/otool -L "'  >> ~/.bash_profile
