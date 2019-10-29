@@ -17,7 +17,7 @@ To reach a sustainable environment we find it important to be able to avoid cert
 
 #### Hardware
 * Das Keyboard BADASS 4
-* Most computers by Apple has way more metal than plastic in the chassis, the same goes for Talos™ II by Raptor
+* Most computers by Apple have way more metal than plastic in the chassis, the same goes for Talos™ II by Raptor
 
 #### Catering
 * Alufoil over plastic when catering.
