@@ -1,6 +1,6 @@
 # Purchase requirement
 
-#### To reach a sustainable environment we find it important to be able to avoid certain synthetics, and choose natural above artificial.
+To reach a sustainable environment we find it important to be able to avoid certain synthetics, and choose natural above artificial.
 
 ## Stop list
 
