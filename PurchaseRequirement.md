@@ -13,6 +13,11 @@ To reach a sustainable environment we find it important to be able to avoid cert
 * Metal, the more precious the better, however cast iron will do over plastic in most cases.
 * Sap from a tree
 
+### Go list specifics
+
+* Das Keyboard BAD ASS 4
+
 ## Challenges
 
 * Whereas most industrial grade computers are made from metal, most keyboards are made from plastic.
+
