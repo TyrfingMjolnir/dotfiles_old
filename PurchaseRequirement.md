@@ -16,6 +16,7 @@ To reach a sustainable environment we find it important to be able to avoid cert
 ### Go list specifics
 
 * Das Keyboard BADASS 4
+* Alufoil over plastic when catering.
 
 ## Challenges
 
