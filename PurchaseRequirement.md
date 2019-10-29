@@ -12,3 +12,7 @@
 
 * Any kind of straws, wood or cannnabis
 * Metal, the more precious the better, however cast iron will do over plastic any time.
+
+## Challenges
+
+* Whereas most computers are made of metal, most keyboards are made from plastic.
