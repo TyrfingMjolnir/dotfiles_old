@@ -11,7 +11,7 @@ To reach a sustainable environment we find it important to be able to avoid cert
 
 * Any kind of straws, wood or cannabis
 * Metal, the more precious the better, however cast iron will do over plastic in most cases.
-* Sap from tree
+* Sap from a tree
 
 ## Challenges
 
