@@ -15,7 +15,7 @@ To reach a sustainable environment we find it important to be able to avoid cert
 
 ### Go list specifics
 
-* Das Keyboard BAD ASS 4
+* Das Keyboard BADASS 4
 
 ## Challenges
 
