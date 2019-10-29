@@ -11,6 +11,7 @@
 
 * Any kind of straws, wood or cannabis
 * Metal, the more precious the better, however cast iron will do over plastic in most cases.
+* Sap from tree
 
 ## Challenges
 
