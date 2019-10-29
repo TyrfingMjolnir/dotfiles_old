@@ -13,9 +13,13 @@ To reach a sustainable environment we find it important to be able to avoid cert
 * Metal, the more precious the better, however cast iron will do over plastic in most cases.
 * Sap from a tree
 
-### Go list specifics
+### Go list specific considerations
 
+#### Hardware
 * Das Keyboard BADASS 4
+* Most computers by Apple has way more metal than plastic in the chassis, the same goes for Thalos
+
+#### Catering
 * Alufoil over plastic when catering.
 * Require real utensils, demand there be no plastic.
 
