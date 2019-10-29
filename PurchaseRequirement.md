@@ -4,8 +4,7 @@
 
 ## Stop list
 
-* Composites, plastics and other synthetics.
-* Anything that becomes microplastics sooner or later.
+* Composites, plastics and other synthetics; anything that becomes microplastics sooner or later.
 * Plastic shopping bags, including redonkolous hemp or fiber immitations.
 
 ## Go list
