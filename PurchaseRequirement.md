@@ -16,7 +16,7 @@ To reach a sustainable environment we find it important to be able to avoid cert
 ### Go list specific considerations
 
 #### Hardware
-* Das Keyboard BADASS 4
+* Das Keyboard BADASS 4; due to overall build quality.
 * Most computers by Apple have way more metal than plastic in the chassis, the same goes for Talos™ II by Raptor
 * For tarp choose old fashion, rather than new lightweight( next year micro plastic )
 
