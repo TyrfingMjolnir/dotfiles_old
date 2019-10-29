@@ -28,3 +28,5 @@ To reach a sustainable environment we find it important to be able to avoid cert
 
 * Whereas most industrial grade computers are made from metal, most keyboards are made from plastic.
 
+* SOP Standard Operating Procedure
+* TCO Total Cost of Ownership
