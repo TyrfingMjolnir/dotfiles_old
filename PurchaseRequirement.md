@@ -15,4 +15,4 @@ To reach a sustainable environment we find it important to be able to avoid cert
 
 ## Challenges
 
-* Whereas most computers are made of metal, most keyboards are made from plastic.
+* Whereas most computers are made from metal, most keyboards are made from plastic.
