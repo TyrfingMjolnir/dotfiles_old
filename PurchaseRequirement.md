@@ -12,7 +12,7 @@ To reach a sustainable environment we find it important to be able to avoid cert
 * Any kind of straws, wood or cannabis in particular for furniture, rope works, computer and vehicle body parts.
 * Metal, the more precious the better, however cast iron will do over plastic in most cases.
 * Sap from a tree
-* Glass in place of plastic
+* Glass
 
 ### Go list specific considerations
 
