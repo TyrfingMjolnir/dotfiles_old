@@ -4,7 +4,7 @@ To reach a sustainable environment we find it important to be able to avoid cert
 
 ## Stop list
 
-* Composites, plastics and other synthetics; anything that becomes microplastics sooner or later.
+* Composits, plastics and other synthetics; anything that becomes microplastics sooner or later.
 * Plastic shopping bags, including redonkolous hemp or fiber immitations.
 
 ## Go list
