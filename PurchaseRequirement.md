@@ -22,7 +22,7 @@ To reach a sustainable environment we find it important to be able to avoid cert
 * For tarp choose old fashion, rather than new lightweight( next year micro plastic )
 
 #### Catering
-* Alufoil over plastic when catering.
+* Glass or alufoil over plastic when catering.
 * Require real utensils, demand there be no plastic.
 
 ## Challenges
