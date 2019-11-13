@@ -2,6 +2,7 @@ sudo pacman -S adobe-source-code-pro-fonts ttf-inconsolata
 sudo pacman -S exa tmux tidy vim ctags curl st termite terminator rxvt-unicode mpv youtube-dl scim
 sudo pacman -S couchdb redis postgresql ack the_silver_searcher
 sudo pacman -S firefox-developer-edition chromium
+sudo pacman -S arch-install-scripts
 
 yaourt -S qira
 
