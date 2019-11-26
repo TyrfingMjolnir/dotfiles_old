@@ -34,3 +34,5 @@ Find lines in the first list that are not in the second:
 ```shell
 $ comm -23 all_files.txt owned_files.txt
 ```
+
+Syntax coloring for Swift in vim: https://github.com/ryanolsonx/vim-lsp-swift
