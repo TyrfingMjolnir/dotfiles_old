@@ -1,0 +1,46 @@
+if-shell "uname | grep -q Darwin" "set-option -g default-command 'reattach-to-user-namespace -l $SHELL'"
+# set-window-option -g xterm-keys on
+set -g mouse on
+set-option -g default-terminal "screen-256color"
+if-shell "uname | grep -q Darwin" "set-option -g default-shell /bin/zsh"
+if-shell "uname | grep -q Linux" "set-option -g default-shell /usr/bin/zsh"
+set -g default-terminal "screen-256color"
+set -ga terminal-overrides ",*256col*:Tc"
+
+unbind C-b
+set -g prefix C-a
+
+set-option -g status-style bg=default
+set -g status-position bottom
+set -g status-right '#(cd #{pane_current_path}; git rev-parse --abbrev-ref HEAD) #[fg=colour221] %Y-%m-%d %H:%M:%S'
+set -g status-right-length 30
+set -g status-left-length 20
+set -g focus-events on
+
+# Vim-like key bindings for pane navigation (default uses cursor keys).
+unbind h
+bind h select-pane -L
+unbind j
+bind j select-pane -D
+unbind k
+bind k select-pane -U
+unbind l # normally used for last-window
+bind l select-pane -R
+
+set -s escape-time 0
+
+# Automatically renumber window numbers on closing a pane (tmux >= 1.7).
+set -g renumber-windows on
+
+# Open new/split panes with the path of the current pane.
+unbind c
+bind c new-window -c '#{pane_current_path}'
+unbind %
+bind % split-window -h -c '#{pane_current_path}'
+unbind '"'
+bind '"' split-window -v -c '#{pane_current_path}'
+
+# reload config file (change file location to your the tmux.conf you want to use)
+bind r source-file ~/.tmux.conf \; display-message "Config reloaded..."
+set -g base-index 1
+setw -g pane-base-index 1
