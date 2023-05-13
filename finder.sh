@@ -28,7 +28,7 @@ defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 defaults write com.apple.screencapture type PNG
 
 # Set Finder's LoginWindowText; this setting in particular requires _sudo_ to run
-defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "If you find me astray from my owner please contact me on phone, text or FaceTime audio at: +47 1234 5678"
+defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "If you find me astray from my owner please contact me on phone, text or FaceTime: +47 1234 5678"
 
 # Enable snap-to-grid for icons on the desktop and in other icon views
 /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist || true
