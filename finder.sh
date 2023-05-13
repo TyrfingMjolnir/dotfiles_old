@@ -2,11 +2,12 @@
 set -e
 
 # This is how to read the different applications potential attributes
-# For machine wide settings
-# find /Library/Preferences -iname "com.apple*" -exec defaults read {} \;
 
-# For user settings
-# find ~/Library/Preferences -iname "com.apple*" -exec defaults read {} \;
+## For machine wide settings
+### find /Library/Preferences -iname "com.apple*" -exec defaults read {} \;
+
+## For user settings
+### find ~/Library/Preferences -iname "com.apple*" -exec defaults read {} \;
 
 # Finder: show path bar
 defaults write com.apple.finder ShowPathbar -bool true
