@@ -27,6 +27,9 @@ defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 # Set the Defaults screenshot format; avialable options: PNG TIFF PDF JPG
 defaults write com.apple.screencapture type PNG
 
+# This should set the FaceTime communication to landscape format, then again does not in Catalina
+defaults write com.apple.FaceTime.plist LocalOrientationIsPortrait -int 0
+
 # Set Finder's LoginWindowText; this setting in particular requires _sudo_ to run
 defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "If you find me astray please contact me by phone, text or FaceTime: +47 1234 5678"
 
@@ -41,6 +44,4 @@ defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 30
 # Expand print dialog by default (revert by changing TRUE to FALSE)
 defaults write -g PMPrintingExpandedStateForPrint -bool TRUE
 
-
-
-echo 'Finder preferences set'
+echo 'macOS system and user preferences set'
