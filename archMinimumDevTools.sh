@@ -1,11 +1,12 @@
 sudo yay -S adobe-source-code-pro-fonts ttf-inconsolata
-sudo yay -S eza tmux tidy neovim curl mpv yt-dlp jq
-sudo yay -S couchdb redis postgresql ack the_silver_searcher
-sudo yay -S firefox-developer-edition chromium
+sudo yay -S eza tmux tidy neovim curl jq fzf atuin ack the_silver_searcher
+sudo yay -S mpv yt-dlp
+sudo yay -S couchdb redis postgresql
+sudo yay -S firefox-developer-edition chromium waterfox
 sudo yay -S arch-install-scripts rust
 
 ## From AUR
-sudo yay -S waterfox
+sudo yay -S 
 
 ## From GIT
 cd ~
