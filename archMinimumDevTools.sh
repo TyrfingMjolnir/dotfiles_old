@@ -5,7 +5,7 @@ sudo yay -S firefox-developer-edition chromium
 sudo yay -S arch-install-scripts rust
 
 ## From AUR
-waterfox
+sudo yay -S waterfox
 
 ## From GIT
 cd ~
