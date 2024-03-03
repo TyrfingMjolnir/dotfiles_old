@@ -4,6 +4,7 @@ sudo yay -S mpv yt-dlp
 sudo yay -S couchdb redis postgresql
 sudo yay -S firefox-developer-edition chromium waterfox
 sudo yay -S arch-install-scripts rust
+sudo yay -S lshw inxi powertop
 
 ## From AUR
 sudo yay -S 
